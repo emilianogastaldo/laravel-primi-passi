@@ -8,7 +8,12 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <ul>
+            <li><a href="{{route('welcome')}}">Welcome page</a></li>
+            <li><a href="{{route('classe')}}">Lista classe</a></li>
+        </ul>
+    </header>
     <main>
         <h2>Hello World!</h2>
     </main>
