@@ -12,6 +12,7 @@
 <body>
     <header>
         <a href="{{route('home')}}">Torna indietro</a>
+        <a href="{{route('welcome')}}">Welcome page</a>
     </header>
     <main>
         <h2>Alunni classe {{$class}}</h2>
